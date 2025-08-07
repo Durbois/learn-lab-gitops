@@ -77,7 +77,7 @@ variable "server_count" {
 # in the Consul datacenter
 variable "public_client_count" {
   description = "The number of clients to provision."
-  default     = "2"
+  default     = "3"
 }
 
 #------------------------------------------------------------------------------#
